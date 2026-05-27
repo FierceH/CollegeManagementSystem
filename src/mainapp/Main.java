@@ -2,6 +2,7 @@ package mainapp;
 
 import model.*;
 import service.*;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -133,6 +134,20 @@ public class Main {
         fileManager.saveEnrolments(dataStore.getEnrolments());
 
         System.out.println("Data saved to files successfully.");
+
+        System.out.println("\nLoading data from files...");
+
+        ArrayList<Unit> loadedUnits = fileManager.loadUnits();
+        ArrayList<Student> loadedStudents = fileManager.loadStudents();
+        ArrayList<Instructor> loadedInstructors = fileManager.loadInstructors();
+        ArrayList<UnitOffering> loadedOfferings = fileManager.loadUnitOfferings(loadedUnits, loadedInstructors);
+        ArrayList<Enrolment> loadedEnrolments = fileManager.loadEnrolments(loadedStudents, loadedOfferings);
+
+        System.out.println("Loaded Units: " + loadedUnits.size());
+        System.out.println("Loaded Students: " + loadedStudents.size());
+        System.out.println("Loaded Instructors: " + loadedInstructors.size());
+        System.out.println("Loaded Unit Offerings: " + loadedOfferings.size());
+        System.out.println("Loaded Enrolments: " + loadedEnrolments.size());
     }
 
     private static void addStudentsAndEnrolments(CMSService cmsService, UnitOffering offering, int start, int end) {
