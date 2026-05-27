@@ -31,7 +31,7 @@ public class Student {
         this.studentName = studentName;
     }
 
-    // Extra methods for compatibility with Zilan's tests
+
     public String getStudentId() {
         return studentID;
     }

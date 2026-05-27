@@ -50,7 +50,6 @@ public class Unit {
         return prerequisites;
     }
 
-    // Extra methods for compatibility with Zilan's tests
     public String getCode() {
         return unitCode;
     }
