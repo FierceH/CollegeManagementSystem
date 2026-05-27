@@ -1,0 +1,2 @@
+BN101,Introduction to Networking,3,Introduces basic networking concepts and IP addressing.,[]
+BN102,Programming Fundamentals,3,Covers problem-solving and Java programming.,[NONE]
