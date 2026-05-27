@@ -1,2 +1,9 @@
 INS001,Dr. Michael Perera
 INS002,Ms. Sarah Lim
+INS003,Mr. Daniel Fernando
+INS004,Dr. Kevin Silva
+INS005,Ms. Amanda Lee
+INS006,Mr. Jason Tan
+INS007,Dr. Rachel Kumar
+INS008,Mr. Andrew Collins
+INS009,Dr. Emily Watson

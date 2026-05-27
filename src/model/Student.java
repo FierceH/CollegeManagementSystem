@@ -31,7 +31,6 @@ public class Student {
         this.studentName = studentName;
     }
 
-
     public String getStudentId() {
         return studentID;
     }
@@ -42,5 +41,10 @@ public class Student {
 
     public void setFullName(String fullName) {
         this.studentName = fullName;
+    }
+
+    @Override
+    public String toString() {
+        return studentID + " - " + studentName + " - " + email;
     }
 }

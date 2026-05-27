@@ -15,6 +15,10 @@ public class Enrolment {
         this.unitOffering = unitOffering;
     }
 
+    public Unit getUnit() {
+        return unitOffering.getUnit();
+    }
+
     public String getEnrolmentID() {
         return enrolmentID;
     }

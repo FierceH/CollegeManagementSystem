@@ -57,4 +57,9 @@ public class Unit {
     public String getName() {
         return unitName;
     }
+
+    @Override
+    public String toString() {
+        return unitCode + " - " + unitName + " - " + credits + " credits";
+    }
 }
