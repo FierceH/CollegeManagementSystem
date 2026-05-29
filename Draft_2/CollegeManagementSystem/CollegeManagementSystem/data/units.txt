@@ -1,0 +1,9 @@
+BN101|Introduction to Networking|3|Introduces basic networking concepts, devices, IP addressing, and network communication.|
+BN102|Programming Fundamentals|3|Covers problem-solving, algorithms, and basic programming using Java.|
+BN201|Database Systems|3|Introduces database concepts, SQL queries, normalization, and database design.|BN102
+BN202|Internetworking Technologies|3|Covers routing, switching, VLANs, and network device configuration.|BN101
+BN203|Cybersecurity Fundamentals|3|Introduces cybersecurity concepts, threats, vulnerabilities, and security controls.|BN101
+BN204|Web Application Development|3|Covers HTML, CSS, JavaScript, and dynamic web application development.|BN102;BN201
+BN205|Operating Systems|3|Explains operating system concepts including processes, memory, and file systems.|
+BN301|Cloud Computing|3|Introduces cloud service models, virtualization, and cloud deployment concepts.|BN202;BN205
+BN302|Software Engineering|3|Covers software development life cycle, design principles, testing, and version control.|BN102
